@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        body {
+            background-color: #19034e;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            color: rgb(253, 254, 254);
+        }
+        h1, h2, h3 {
+            color: #bddef2;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        .profile-img {
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 150px; 
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        ul {
+            padding-left: 20px; }
+        video, audio {
+            width: 100%; 
+            margin-top: 10px;
+        }
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+            section {
+                margin: 10px;
+                padding: 15px; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Curriculum Vitae</h1>
+    <nav>
+        <a href="#about">Tentang Saya</a>
+        <a href="#hobbies">Hobi</a>
+        <a href="#contact">Kontak</a>
+        <a href="#media">Media</a>
+    </nav>
+</header>
+
+<main>
+    <section id="about">
+        <img src="profile abdi.jpg" alt="Foto Profil" class="profile-img">
+        <h2>Tentang Saya</h2>
+        <p>Saya seorang mahasiswa aktif di UISI, 
+           memiliki kemampuan leadership yang baik, 
+           mudah bergaul, cepat beradaptasi, dan suka belajar hal baru.</p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobi</h2>
+        <ul>
+            <li>Kuliner</li>
+            <li>Traveling</li>
+            <li>Bernyanyi dan bermain alat musik</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak</h2>
+        <p>Email: abdi.nurhaqqin23@student.uisi.ac.id</p>
+        <p>Telepon: 0856-0410-7616</p>
+        <p>Alamat: Tambakboyo Rt.004/Rw.001, Kecamatan Tikung, Kabupaten Lamongan</p>
+    </section>
+
+    <section id="media">
+        <h2>Media</h2>
+        <h3>Video</h3>
+        <video controls>
+            <source src= "Gelora Asmara.mp4" type="video/mp4"> 
+            
+        </video>
+
+        <h3>Lagu</h3>
+        <audio controls>
+            <source src="Pasti bisa.mp3" type="audio/mp3">
+            Browser Anda tidak mendukung pemutar audio.
+        </audio>
